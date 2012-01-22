@@ -24,3 +24,5 @@ get '/info/:hash' do
   url = @shorten.lookup(params[:hash])
   erb :shortened, :local => {:url => url}
 end
+
+#testing PSHB
